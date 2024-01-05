@@ -54,6 +54,6 @@ The JavaScript code is designed to perform various operations based on user-inpu
 Upon receiving an input number, the program generates combinations using permutations and combinations. From these combinations, it identifies prime numbers using the isPrime function and constructs Pascal's Triangle based on the highest prime found. The program then displays the primes within the Pascal's Triangle, highlighting them visually. Additionally, it creates an array showcasing prime numbers absent from the Pascal's Triangle. Finally, the program calculates the error ratio by determining the proportion of prime numbers that are not present in the Pascal's Triangle to the total number of primes generated from the combinations. This comprehensive code provides a clear demonstration of prime number identification, Pascal's Triangle construction, visual highlighting, and error ratio calculation, offering an efficient solution for these mathematical operations in JavaScript.
 
 
-#### Author Details :
+#### Author Detail :
 
 Author Name : Kailash Pradhan
