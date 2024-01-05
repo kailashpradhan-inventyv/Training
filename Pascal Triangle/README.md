@@ -1,4 +1,6 @@
-# Question : Create a JavaScript program that takes a user-input number, generates permutations and combinations based on that number, identifies prime numbers within these combinations, displays the primes found within Pascal's Triangle while highlighting them, and display also those prime numbers which are absent from the Pascal's Triangle, and calculates the error ratio. This ratio represents the proportion of prime numbers not present in Pascal's Triangle to the total number of prime numbers generated.
+# Question : 
+
+Create a JavaScript program that takes a user-input number, generates permutations and combinations based on that number, identifies prime numbers within these combinations, displays the primes found within Pascal's Triangle while highlighting them, and display also those prime numbers which are absent from the Pascal's Triangle, and calculates the error ratio. This ratio represents the proportion of prime numbers not present in Pascal's Triangle to the total number of prime numbers generated.
 
 ## PseudoCode : 
 
