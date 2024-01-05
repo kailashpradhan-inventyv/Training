@@ -43,12 +43,9 @@ function isPrime(num) {
   }
 
   function displayAllPrimes(primes){
-    // const primesNotInPascalDiv = document.createElement('div');
-    // primesNotInPascalDiv.textContent = primesNotInPascal.join(', ');
-    // primeOutput.appendChild(primesNotInPascalDiv);
-
+    
     const primeOutput = document.getElementById('primeOutput');
-    // primeOutput.innerHTML = '<h2>All Primes </h2>';
+    
 
     const allPrimes=document.createElement('div');
     const heading=document.createElement('h2');
