@@ -5,44 +5,44 @@ Create a JavaScript program that takes a user-input number, generates permutatio
 ## PseudoCode : 
 
     function generatePascalTriangle(limit) {
-    let triangle = [[1]];
-    do {
-      let lastRow = triangle[triangle.length - 1];
-      let newRow = [1];
-      for (let i = 1; i < lastRow.length; i++) {
-        let nextValue = lastRow[i] + lastRow[i - 1];
-        newRow.push(nextValue);
-        if (nextValue > limit) {
-          return triangle;
-        }
+        let triangle = [[1]];
+        do {
+          let lastRow = triangle[triangle.length - 1];
+          let newRow = [1];
+          for (let i = 1; i < lastRow.length; i++) {
+                let nextValue = lastRow[i] + lastRow[i - 1];
+                newRow.push(nextValue);
+                if (nextValue > limit) {
+                  return triangle;
+                }
+          }
+          newRow.push(1);
+          triangle.push(newRow);
+        } while (true);
       }
-      newRow.push(1);
-      triangle.push(newRow);
-    } while (true);
-  }
 
       function generateCombinations(number) {
         const numString = number.toString();
-    const len = numString.length;
-    const combinations = new Set();
+        const len = numString.length;
+        const combinations = new Set();
 
-    function permute(remainingDigits, currentPerm = "") {
-      if (currentPerm.length > 0 && currentPerm.length <= len) {
-        combinations.add(parseInt(currentPerm));
+        function permute(remainingDigits, currentPerm = "") {
+          if (currentPerm.length > 0 && currentPerm.length <= len) {
+            combinations.add(parseInt(currentPerm));
+          }
+          if (currentPerm.length === len) {
+            combinations.add(parseInt(currentPerm));
+            return;
+          }
+
+          for (let i = 0; i < remainingDigits.length; i++) {
+            const newRemaining =
+            remainingDigits.slice(0, i) + remainingDigits.slice(i + 1);
+            permute(newRemaining, currentPerm + remainingDigits[i]);
+          }
+        }
+
+        permute(numString);
+
+        return [...combinations];
       }
-      if (currentPerm.length === len) {
-        combinations.add(parseInt(currentPerm));
-        return;
-      }
-
-      for (let i = 0; i < remainingDigits.length; i++) {
-        const newRemaining =
-          remainingDigits.slice(0, i) + remainingDigits.slice(i + 1);
-        permute(newRemaining, currentPerm + remainingDigits[i]);
-      }
-    }
-
-    permute(numString);
-
-    return [...combinations];
-  }
