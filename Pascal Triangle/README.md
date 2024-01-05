@@ -20,7 +20,7 @@ Create a JavaScript program that takes a user-input number, generates permutatio
           triangle.push(newRow);
         } while (true);
       }
-
+----------------------------------------------------------------------
       function generateCombinations(number) {
         const numString = number.toString();
         const len = numString.length;
