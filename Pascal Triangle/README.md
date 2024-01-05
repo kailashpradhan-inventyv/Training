@@ -4,7 +4,7 @@ Create a JavaScript program that takes a user-input number, generates permutatio
 
 ## PseudoCode : 
 
-function generatePascalTriangle(limit) {
+    function generatePascalTriangle(limit) {
     let triangle = [[1]];
     do {
       let lastRow = triangle[triangle.length - 1];
@@ -21,8 +21,8 @@ function generatePascalTriangle(limit) {
     } while (true);
   }
 
-  function generateCombinations(number) {
-    const numString = number.toString();
+      function generateCombinations(number) {
+        const numString = number.toString();
     const len = numString.length;
     const combinations = new Set();
 
