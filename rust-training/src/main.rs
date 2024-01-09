@@ -3,10 +3,10 @@ struct Area{
     breadth:f32,
 }
 impl Area{
-    fn Area_of_Rectangle(&self)->f32{
+    fn area_of_rectangle(&self)->f32{
         self.length*self.breadth        
     }
-    fn Area_of_Circle(&self)->f32{
+    fn area_of_circle(&self)->f32{
         if self.length>=self.breadth{
             3.14*(self.breadth/2.0)*(self.breadth/2.0)
         }
@@ -14,7 +14,7 @@ impl Area{
             3.14*(self.length/2.0)*(self.length/2.0)
         }
     }
-    fn Area_of_Square(&self)->f32{
+    fn area_of_square(&self)->f32{
         if self.length>=self.breadth{
             self.breadth*self.breadth
         }
@@ -30,10 +30,7 @@ fn main(){
         breadth:10.0
     };
 
-    println!("Area of Circle {}",instance_of_area.Area_of_Circle());
-    println!("Area of Rectangle {}",instance_of_area.Area_of_Rectangle());
-    println!("Area of Square {}",instance_of_area.Area_of_Square());
-
-
-
+    println!("Area of Circle {}",instance_of_area.area_of_circle());
+    println!("Area of Rectangle {}",instance_of_area.area_of_rectangle());
+    println!("Area of Square {}",instance_of_area.area_of_square());
 }
