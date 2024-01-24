@@ -5,11 +5,11 @@ use serde::{Serialize,Deserialize};
 
 
 pub struct Employee{
-    name:String,
-    age:u8,
+    pub name:String,
+    pub age:u8,
     pub position:Option<Position>,
     #[serde(rename="experiance(y)")]
-    experiance:Option<u8>,
+    pub experiance:Option<u8>,
     pub skills:Vec<Skills>,
 }
 #[derive(PartialEq,Debug,Serialize,Deserialize)]
@@ -37,11 +37,11 @@ pub enum Skills{
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Student {
-    name: String,
-    phone: String,
-    email: String,
-    city: String,
-    address: String,
+    pub name: String,
+    pub phone: String,
+    pub email: String,
+    pub city: String,
+    pub address: String,
     pub marks: Vec<u32>,
     pub percentage: Option<f32>,
     pub grade: Option<String>,

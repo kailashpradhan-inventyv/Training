@@ -1,9 +1,9 @@
 [
   {
+    "experiance": 1,
     "name": "Saanvi",
-    "age": 26,
     "position": "Jr. Software Developer",
-    "experiance(y)": 1,
+    "age": 26,
     "skills": [
       "Java",
       "Rust"
