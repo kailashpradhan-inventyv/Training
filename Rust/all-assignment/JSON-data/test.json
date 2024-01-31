@@ -1,0 +1,349 @@
+{
+  "tab_height": 472.0,
+  "tab_width": 772.0,
+  "all_rows": [
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 80.0,
+      "row_type": "HEADER",
+      "row_cells": [
+        {
+          "data": "Descr\niption\n(Type)"
+        },
+        {
+          "data": "Date I\nn Svc"
+        },
+        {
+          "data": "Cost/ \nBasis"
+        },
+        {
+          "data": "Prior \n179 B\nonus"
+        },
+        {
+          "data": "Bus. \nUse Pe\nr."
+        },
+        {
+          "data": "Meth\nod"
+        },
+        {
+          "data": "Cv"
+        },
+        {
+          "data": "Life"
+        },
+        {
+          "data": "Crnt. \n179"
+        },
+        {
+          "data": "Crnt. \nBonus"
+        },
+        {
+          "data": "Prior \nReg. \nDepr."
+        },
+        {
+          "data": "Crnt. \nDepr. \nDedu\nc."
+        },
+        {
+          "data": "Next \nYear \nDepr."
+        },
+        {
+          "data": "Prior \nAMT"
+        },
+        {
+          "data": "Crnt. \nAMT"
+        },
+        {
+          "data": "Crnt. \nAmo. \nDep."
+        }
+      ]
+    },
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 112.0,
+      "row_type": "RECORD",
+      "row_cells": [
+        {
+          "data": "Asset1 - \nHouse In \nNY(Indi\nan Reserv\nation 5 y\near non f\narm prop\nerty"
+        },
+        {
+          "data": "01/01/20\n24"
+        },
+        {
+          "data": "250,000"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "100 MA\nCRS 150"
+        },
+        {
+          "data": "HY"
+        },
+        {
+          "data": "3"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        }
+      ]
+    },
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 112.0,
+      "row_type": "RECORD",
+      "row_cells": [
+        {
+          "data": "Asset2 - \nHouse In \nCA(Indi\nan Reserv\nation 10 \nyear far\nm propert\ny)"
+        },
+        {
+          "data": "01/01/20\n22"
+        },
+        {
+          "data": "150000"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "100 MA\nCRS 150"
+        },
+        {
+          "data": "CA"
+        },
+        {
+          "data": "3"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        }
+      ]
+    },
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 56.0,
+      "row_type": "RECORD",
+      "row_cells": [
+        {
+          "data": "Asset3 - \nCar -For\nd(Car Pr\noperty)"
+        },
+        {
+          "data": "01/01/20\n19"
+        },
+        {
+          "data": "1000000"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "100 MA\nCRS 150"
+        },
+        {
+          "data": "ford"
+        },
+        {
+          "data": "3"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        }
+      ]
+    },
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 56.0,
+      "row_type": "RECORD",
+      "row_cells": [
+        {
+          "data": "Asset3 - \nCar -Aud\ni(Car Pr\noperty)"
+        },
+        {
+          "data": "01/01/20\n17"
+        },
+        {
+          "data": "150000"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "100 MA\nCRS 150"
+        },
+        {
+          "data": "ford"
+        },
+        {
+          "data": "3"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        }
+      ]
+    },
+    {
+      "cell_width": 48.25,
+      "total_cells": 16,
+      "row_width": 772.0,
+      "row_height": 56.0,
+      "row_type": "RECORD",
+      "row_cells": [
+        {
+          "data": "Asset3 - \nCar -BM\nW(Car P\nroperty)"
+        },
+        {
+          "data": "01/01/20\n15"
+        },
+        {
+          "data": "150000"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "100 MA\nCRS 150"
+        },
+        {
+          "data": "ford"
+        },
+        {
+          "data": "3"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        },
+        {
+          "data": "0"
+        }
+      ]
+    }
+  ],
+  "tot_rows": 6
+}

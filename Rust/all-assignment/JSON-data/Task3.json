@@ -1,63 +1,63 @@
 [
   {
     "experiance": 5,
-    "age": 25,
-    "position": "Sr. Software Developer",
     "skills": [
       "Java",
       "C#"
     ],
-    "name": "Aarav"
+    "name": "Aarav",
+    "age": 25,
+    "position": "Sr. Software Developer"
   },
   {
-    "name": "Advait",
-    "age": 28,
     "skills": [
       "C#",
       "Rust"
-    ]
+    ],
+    "name": "Advait",
+    "age": 28
   },
   {
-    "name": "Aisha",
-    "age": 25,
     "skills": [
       "Rust",
       "C#"
-    ]
+    ],
+    "name": "Aisha",
+    "age": 25
   },
   {
+    "name": "Diya",
     "skills": [
       "Python",
       "C#"
     ],
-    "name": "Diya",
     "age": 27
   },
   {
+    "position": "Team Lead",
     "name": "Vihaan",
     "age": 28,
     "skills": [
       "Rust",
       "C#"
-    ],
-    "position": "Team Lead"
+    ]
   },
   {
-    "age": 25,
-    "position": "Project Manager",
     "skills": [
       "C#",
       "Rust"
     ],
-    "name": "Ananya"
+    "name": "Ananya",
+    "age": 25,
+    "position": "Project Manager"
   },
   {
+    "name": "Kabir",
+    "age": 26,
     "skills": [
       "Python",
       "C#"
-    ],
-    "name": "Kabir",
-    "age": 26
+    ]
   },
   {
     "name": "Rohan",
@@ -69,23 +69,23 @@
   },
   {
     "name": "Aanya",
+    "age": 25,
     "skills": [
       "C#",
       "Java"
-    ],
-    "age": 25
-  },
-  {
-    "name": "Ritvik",
-    "age": 26,
-    "skills": [
-      "Java",
-      "C#"
     ]
   },
   {
-    "name": "Reyansh",
+    "skills": [
+      "Java",
+      "C#"
+    ],
+    "name": "Ritvik",
+    "age": 26
+  },
+  {
     "age": 28,
+    "name": "Reyansh",
     "skills": [
       "C#",
       "Java"
@@ -93,11 +93,11 @@
   },
   {
     "name": "Ishita",
-    "age": 25,
     "skills": [
       "C#",
       "Python"
-    ]
+    ],
+    "age": 25
   },
   {
     "skills": [
@@ -108,21 +108,21 @@
     "name": "Virat"
   },
   {
+    "name": "Avani",
+    "age": 27,
     "skills": [
       "C#",
       "Rust"
-    ],
-    "name": "Avani",
-    "age": 27
+    ]
   },
   {
-    "experiance": 4,
-    "age": 28,
-    "name": "Aryan",
     "skills": [
       "Rust",
       "Python"
     ],
-    "position": "Sr. Software Developer"
+    "name": "Aryan",
+    "age": 28,
+    "position": "Sr. Software Developer",
+    "experiance": 4
   }
 ]

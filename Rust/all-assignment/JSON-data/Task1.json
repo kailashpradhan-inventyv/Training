@@ -4,17 +4,17 @@
       "Rust",
       "C#"
     ],
-    "age": 27,
     "position": "Software Developer",
-    "name": "Arjun"
+    "name": "Arjun",
+    "age": 27
   },
   {
-    "name": "Ishaan",
-    "age": 26,
+    "position": "Software Developer",
     "skills": [
       "Rust",
       "Java"
     ],
-    "position": "Software Developer"
+    "age": 26,
+    "name": "Ishaan"
   }
 ]

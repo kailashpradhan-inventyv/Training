@@ -1,12 +1,12 @@
 [
   {
+    "position": "Jr. Software Developer",
     "experiance": 1,
     "name": "Saanvi",
-    "position": "Jr. Software Developer",
-    "age": 26,
     "skills": [
       "Java",
       "Rust"
-    ]
+    ],
+    "age": 26
   }
 ]

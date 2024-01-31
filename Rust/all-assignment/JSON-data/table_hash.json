@@ -1,0 +1,529 @@
+{
+  "total_height": 348.0,
+  "total_width": 772.0,
+  "all_row": [
+    {
+      "row_height": 24.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Descriptio\nn(Type)"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Date In Sv\nc"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Cost/ Bas\nis"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Prior 179\n Bonus"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Bus. Use P\ner."
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "Method"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "Cv"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "Life"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "Crnt. 179"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Crnt. Bon\nus"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Prior Reg\n. Depr."
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Crnt. Dep\nr. Deduc."
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Next Year\n Depr."
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Prior AM\nT"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Crnt. AM\nT"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "Crnt. Am\no. Dep."
+        }
+      ],
+      "row_width": 772.0
+    },
+    {
+      "row_height": 96.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 96.0,
+          "value": "Asset1 - H\nouse In N\nY(Indian\n Reservat\nion 5 yea\nr non farm\n propert\ny"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "01/01/202\n4"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "250,000"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "100 MAC\nRS 150"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "HY"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "3"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        }
+      ],
+      "row_width": 772.0
+    },
+    {
+      "row_height": 84.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 84.0,
+          "value": "Asset2 - H\nouse In C\nA(Indian\n Reservat\nion 10 ye\nar farm p\nroperty)"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "01/01/202\n2"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "150000"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "100 MAC\nRS 150"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "CA"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "3"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        }
+      ],
+      "row_width": 772.0
+    },
+    {
+      "row_height": 48.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 48.0,
+          "value": "Asset3 - C\nar -Ford(\nCar Prop\nerty)"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "01/01/201\n9"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "1000000"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "100 MAC\nRS 150"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "ford"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "3"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        }
+      ],
+      "row_width": 772.0
+    },
+    {
+      "row_height": 48.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 48.0,
+          "value": "Asset3 - C\nar -Audi(\nCar Prop\nerty)"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "01/01/201\n7"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "150000"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "100 MAC\nRS 150"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "ford"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "3"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        }
+      ],
+      "row_width": 772.0
+    },
+    {
+      "row_height": 48.0,
+      "tot_cells": 16.0,
+      "row_cells": [
+        {
+          "width": 48.25,
+          "height": 48.0,
+          "value": "Asset3 - C\nar -BMW\n(Car Pro\nperty)"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "01/01/201\n5"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "150000"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 24.0,
+          "value": "100 MAC\nRS 150"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "ford"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "3"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        },
+        {
+          "width": 48.25,
+          "height": 12.0,
+          "value": "0"
+        }
+      ],
+      "row_width": 772.0
+    }
+  ],
+  "no_row": 6.0
+}
