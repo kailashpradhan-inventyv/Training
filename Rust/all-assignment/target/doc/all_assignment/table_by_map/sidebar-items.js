@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["table_value_update"],"struct":["CHAR_WIDTH"]};

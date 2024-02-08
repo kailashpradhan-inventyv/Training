@@ -1,4 +1,5 @@
 
+use chrono::{DateTime, Utc};
 use serde::{Serialize,Deserialize};
 
 #[derive(Debug,Deserialize,Serialize)]
@@ -121,6 +122,42 @@ pub struct tTable{
     pub tab_width: f32,
     pub all_rows:Vec<tRow>,
     pub tot_rows:i32
+}
+
+
+#[derive(Debug)]
+pub struct Data{
+    pub id:i32,
+    pub name:String,
+    pub timestamp:DateTime<Utc>
+}
+
+
+#[derive(Debug,Deserialize,Serialize,PartialEq)]
+pub struct CustomerData{
+    pub id:i32,
+    pub name:String,
+    pub skills:Vec<String>,
+    pub status:String,
+    pub language:language
+}
+
+#[derive(Debug,PartialEq)]
+pub enum available{
+    Chat,
+    Call
+}
+#[derive(Debug,Deserialize,Serialize,PartialEq)]
+pub enum language{
+    English,
+    Spanish
+}
+#[derive(Debug)]
+pub struct request_data{
+    pub skills:String,
+    pub available:available,
+    pub language:language,
+    pub timestamp:DateTime<Utc>
 }
 
 

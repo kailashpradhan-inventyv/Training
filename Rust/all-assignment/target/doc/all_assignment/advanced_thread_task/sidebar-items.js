@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["advanced_task"],"mod":["bifurcation_level_hashmap","bifurcation_task_hashmap","hash_task_assign","random_task","shuffle_customerdata","task_assign","task_bifurcation","task_queue"],"struct":["HASH_KEY","HASH_QUEUE","MASTER_DATA","REQUEST_DATA","USER_SKILLS","request_data_call","request_data_chat"]};

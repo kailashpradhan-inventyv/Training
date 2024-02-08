@@ -109,7 +109,7 @@
 </pre></div><pre class="rust"><code>
 <span class="kw">use </span><span class="kw">crate</span>::common::{Cell,Row,Table};
 <span class="kw">impl </span>Cell {
-    <span class="kw">fn </span>cell_data(width:u8,height:u8,value:u8)-&gt;Cell{
+    <span class="kw">fn </span>cell_data(width:f32,height:f32,value:String)-&gt;Cell{
         Cell{
             width,
             height,
@@ -120,8 +120,8 @@
 
 <span class="kw">impl </span>Row {
     <span class="kw">fn </span>new_row(cell:Vec&lt;Cell&gt;)-&gt;Row{
-        <span class="kw">let </span><span class="kw-2">mut </span>height=<span class="number">0</span>;
-        <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0</span>;
+        <span class="kw">let </span><span class="kw-2">mut </span>height=<span class="number">0.0</span>;
+        <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0.0</span>;
         <span class="kw">let </span>total=cell.len();
         <span class="kw">for </span>i <span class="kw">in </span><span class="number">0</span>..cell.len(){
             <span class="kw">if </span>height&lt;=cell[i].height {
@@ -133,7 +133,7 @@
         
         Row{
             row_height:height,
-            tot_cells:total <span class="kw">as </span>u8,
+            tot_cells:total <span class="kw">as </span>f32,
             row_cells:cell,
             row_width:width,
 
@@ -144,8 +144,8 @@
 
 <span class="kw">impl </span>Table{
     <span class="kw">fn </span>create_table(rows:Vec&lt;Row&gt;)-&gt;Table{
-        <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0</span>;
-        <span class="kw">let </span><span class="kw-2">mut </span>height =<span class="number">0</span>;
+        <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0.0</span>;
+        <span class="kw">let </span><span class="kw-2">mut </span>height =<span class="number">0.0</span>;
         <span class="kw">let </span>tot_rows=rows.len();
         
         <span class="kw">for </span>i <span class="kw">in </span><span class="number">0</span>..rows.len(){
@@ -159,18 +159,18 @@
             total_height:height,
             total_width:width,
             all_row:rows,
-            no_row:tot_rows <span class="kw">as </span>u8
+            no_row:tot_rows <span class="kw">as </span>f32
         }
     }
 
-    <span class="kw">fn </span>update_data(<span class="kw-2">&amp;mut </span><span class="self">self</span>,row_index:usize,cell_no:usize,cell_height:u8,cell_width:u8){
+    <span class="kw">fn </span>update_data(<span class="kw-2">&amp;mut </span><span class="self">self</span>,row_index:usize,cell_no:usize,cell_height:f32,cell_width:f32){
             
         <span class="kw">if </span>row_index &lt; <span class="self">self</span>.all_row.len() &amp;&amp; cell_no&lt;<span class="self">self</span>.all_row[row_index].tot_cells <span class="kw">as </span>usize{
             <span class="self">self</span>.all_row[row_index].row_cells[cell_no].height=cell_height;
             <span class="self">self</span>.all_row[row_index].row_cells[cell_no].width=cell_width;
         
-            <span class="kw">let </span><span class="kw-2">mut </span>height=<span class="number">0</span>;
-            <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0</span>;
+            <span class="kw">let </span><span class="kw-2">mut </span>height=<span class="number">0.0</span>;
+            <span class="kw">let </span><span class="kw-2">mut </span>width=<span class="number">0.0</span>;
             <span class="kw">for </span>cell <span class="kw">in </span><span class="kw-2">&amp;</span><span class="self">self</span>.all_row[row_index].row_cells {
                 <span class="kw">if </span>cell.height &gt; height {
                     height = cell.height;
@@ -182,8 +182,8 @@
             <span class="self">self</span>.all_row[row_index].row_width = width;
 
             
-            <span class="self">self</span>.total_height = <span class="number">0</span>;
-            <span class="self">self</span>.total_width = <span class="number">0</span>;
+            <span class="self">self</span>.total_height = <span class="number">0.0</span>;
+            <span class="self">self</span>.total_width = <span class="number">0.0</span>;
 
             <span class="kw">for </span>row <span class="kw">in </span><span class="kw-2">&amp;</span><span class="self">self</span>.all_row {
                 <span class="kw">if </span>row.row_width &gt; <span class="self">self</span>.total_width {
@@ -202,15 +202,15 @@
 }
 
 <span class="kw">pub fn </span>table_update(){
-    <span class="kw">let </span>c1=Cell::cell_data(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>);
-    <span class="kw">let </span>c2=Cell::cell_data(<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>);
+    <span class="kw">let </span>c1=Cell::cell_data(<span class="number">1.0</span>, <span class="number">2.0</span>, <span class="string">&quot;3&quot;</span>.to_string());
+    <span class="kw">let </span>c2=Cell::cell_data(<span class="number">1.0</span>, <span class="number">3.0</span>, <span class="string">&quot;4&quot;</span>.to_string());
     <span class="kw">let </span>r1=Row::new_row(<span class="macro">vec!</span>[c1,c2]);
-    <span class="kw">let </span>c3=Cell::cell_data(<span class="number">1</span>, <span class="number">4</span>, <span class="number">5</span>);
-    <span class="kw">let </span>c4=Cell::cell_data(<span class="number">1</span>, <span class="number">5</span>, <span class="number">6</span>);
+    <span class="kw">let </span>c3=Cell::cell_data(<span class="number">1.0</span>, <span class="number">4.0</span>, <span class="string">&quot;5&quot;</span>.to_string());
+    <span class="kw">let </span>c4=Cell::cell_data(<span class="number">1.0</span>, <span class="number">5.0</span>, <span class="string">&quot;6&quot;</span>.to_string());
     <span class="kw">let </span>r2=Row::new_row(<span class="macro">vec!</span>[c3,c4]);
     <span class="kw">let </span><span class="kw-2">mut </span>table=Table::create_table(<span class="macro">vec!</span>[r1,r2]);
     <span class="macro">println!</span>(<span class="string">&quot;{:#?}&quot;</span>,table);
-    table.update_data(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>,<span class="number">5</span>);
+    table.update_data(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1.0</span>,<span class="number">5.0</span>);
     <span class="macro">println!</span>(<span class="string">&quot;{:#?}&quot;</span>,table);
 }
 

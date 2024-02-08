@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["main"],"mod":["common","employee","string_freq","string_task","student","table"]};
+window.SIDEBAR_ITEMS = {"fn":["main"],"mod":["advanced_thread_task","common","emp_by_hashmap","employee","string_freq","string_task","stud_by_hashmap","student","table","table_by_map","thread_generate_datas"]};

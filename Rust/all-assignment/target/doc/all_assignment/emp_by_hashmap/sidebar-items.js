@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["emp_update_hashmap","struct_to_map"]};
