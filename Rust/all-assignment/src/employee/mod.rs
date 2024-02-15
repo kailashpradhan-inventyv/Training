@@ -40,3 +40,42 @@ pub fn emp_sorting(){
         }
     }
 }
+
+
+
+#[cfg(test)]
+mod tests {
+    use std::{fs::read_to_string, result};
+
+    use crate::common::Employee;
+
+    #[test]
+    fn task1_check(){
+    let output=read_to_string("JSON-data/Task1.json").unwrap();
+    // let task_data:Vec<Employee>=serde_json::from_str(&content).expect("fail");
+    let my_result=r#"[
+        {"skills": [
+            "Rust",
+            "C#"
+          ],
+          "position": "Software Developer",
+          "name": "Arjun",
+          "age": 27
+        },
+        {
+          "position": "Software Developer",
+          "skills": [
+            "Rust",
+            "Java"
+          ],
+          "age": 26,
+          "name": "Ishaan"
+        }
+      ]"#;
+    // let serialize_data1=serde_json::to_string_pretty(task_data).unwrap();
+
+        assert_eq!(my_result,output);
+
+
+    }
+}

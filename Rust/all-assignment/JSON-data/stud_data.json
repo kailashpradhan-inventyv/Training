@@ -1,0 +1,172 @@
+[
+    {
+      "id":1,
+      "email": "aarav.patel@example.com",
+      "city": "Mumbai",
+      "phone": "+91 9876543210",
+      "marks": [
+        85,
+        92,
+        78,
+        90,
+        88
+      ],
+      "grade": "A2",
+      "percentage": 86.5999984741211,
+      "address": "123, ABC Street, XYZ Colony",
+      "name": "Aarav Patel"
+    },
+    {
+        "id":2,
+      "percentage": 83.4000015258789,
+      "name": "Sanya Sharma",
+      "email": "sanya.sharma@example.com",
+      "grade": "A2",
+      "phone": "+91 8765432109",
+      "city": "Delhi",
+      "marks": [
+        75,
+        80,
+        88,
+        79,
+        95
+      ],
+      "address": "456, PQR Street, LMN Colony"
+    },
+    {
+        "id":3,
+      "percentage": 88.4000015258789,
+      "name": "Arjun Gupta",
+      "phone": "+91 7456123980",
+      "address": "789, DEF Street, GHI Colony",
+      "marks": [
+        92,
+        89,
+        94,
+        87,
+        80
+      ],
+      "grade": "A2",
+      "email": "arjun.gupta@example.com",
+      "city": "Bangalore"
+    },
+    {
+        "id":4,
+      "marks": [
+        78,
+        85,
+        90,
+        92,
+        88
+      ],
+      "grade": "A2",
+      "address": "1011, JKL Street, MNO Colony",
+      "email": "neha.verma@example.com",
+      "phone": "+91 9123456780",
+      "percentage": 86.5999984741211,
+      "name": "Neha Verma",
+      "city": "Kolkata"
+    },
+    {
+        "id":5,
+      "city": "Chennai",
+      "marks": [
+        85,
+        88,
+        76,
+        91,
+        94
+      ],
+      "email": "rahul.kumar@example.com",
+      "name": "Rahul Kumar",
+      "phone": "+91 8309765412",
+      "grade": "A2",
+      "address": "1213, PQR Street, STU Colony",
+      "percentage": 86.79999542236328
+    },
+    {
+        "id":6,
+      "phone": "+91 7890123456",
+      "address": "1415, UVW Street, XYZ Colony",
+      "email": "aisha.singh@example.com",
+      "marks": [
+        90,
+        92,
+        85,
+        78,
+        88
+      ],
+      "grade": "A2",
+      "name": "Aisha Singh",
+      "city": "Hyderabad",
+      "percentage": 86.5999984741211
+    },
+    {
+        "id":7,
+      "marks": [
+        85,
+        80,
+        88,
+        79,
+        95
+      ],
+      "phone": "+91 9876501234",
+      "percentage": 85.39999389648438,
+      "city": "Pune",
+      "email": "vikram.yadav@example.com",
+      "name": "Vikram Yadav",
+      "grade": "A2",
+      "address": "1617, GHI Street, JKL Colony"
+    },
+    {
+        "id":8,
+      "marks": [
+        92,
+        89,
+        94,
+        87,
+        80
+      ],
+      "name": "Anaya Mishra",
+      "percentage": 88.4000015258789,
+      "city": "Jaipur",
+      "address": "1819, MNO Street, PQR Colony",
+      "email": "anaya.mishra@example.com",
+      "grade": "A2",
+      "phone": "+91 7012345678"
+    },
+    {
+        "id":9,
+      "name": "Aryan Singh",
+      "grade": "A2",
+      "percentage": 86.5999984741211,
+      "address": "2021, STU Street, UVW Colony",
+      "phone": "+91 9123456789",
+      "city": "Lucknow",
+      "marks": [
+        78,
+        85,
+        90,
+        92,
+        88
+      ],
+      "email": "aryan.singh@example.com"
+    },
+    {
+        "id":10,
+      "percentage": 99.80000305175781,
+      "phone": "+91 9876543211",
+      "marks": [
+        99,
+        100,
+        100,
+        100,
+        100
+      ],
+      "name": "Ishita Sharma",
+      "address": "2223, XYZ Street, ABC Colony",
+      "grade": "A1",
+      "city": "Ahmedabad",
+      "email": "ishita.sharma@example.com"
+    }
+  ]

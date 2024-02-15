@@ -5,9 +5,9 @@ use super::{HASH_KEY, HASH_QUEUE, MASTER_DATA, USER_SKILLS};
 
 
 pub fn hash_task_assign(){
-    let level=vec!["L5","L4","L3","L2","L1"];
-    let avail_type=vec!["Chat","Call"];
-    let lang=vec!["English","Spanish"];
+    // let level=vec!["L5","L4","L3","L2","L1"];
+    // let avail_type=vec!["Chat","Call"];
+    // let lang=vec!["English","Spanish"];
     // let read_hash=Arc::clone(&HASH_QUEUE);
     let binding = Arc::clone(&HASH_QUEUE);
     let mut write_hash=binding.write().unwrap();

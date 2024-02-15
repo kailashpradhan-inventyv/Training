@@ -11,3 +11,8 @@ serde_json = "1.0.111"
 lazy_static="1.4.0"
 rand="0.8.5"
 chrono="0.4.33"
+axum = { version = "0.6.4", features = ["multipart"] }
+tokio = { version = "1.36.0", features = ["full"] }
+tower-http = { version = "0.3", features = ["cors", "trace"] }
+tower = { version = "0.4.13", features = ["full"] }
+hyper = "0.14.28"

@@ -1,4 +1,6 @@
 
+use std::clone;
+
 use chrono::{DateTime, Utc};
 use serde::{Serialize,Deserialize};
 
@@ -12,7 +14,7 @@ pub struct Employee{
     pub experiance:Option<u8>,
     pub skills:Vec<Skills>,
 }
-#[derive(PartialEq,Debug,Serialize,Deserialize)]
+#[derive(PartialEq,Debug,Serialize,Deserialize,Clone)]
 
 pub enum Position{
     #[serde(rename="Jr. Software Developer")]
@@ -26,7 +28,7 @@ pub enum Position{
     #[serde(rename="Team Lead")]
     Tl
 }
-#[derive(Debug,Serialize,PartialEq,Deserialize)]
+#[derive(Debug,Serialize,PartialEq,Deserialize,Clone)]
 pub enum Skills{
     Python,
     #[serde(rename="C#")]
@@ -133,7 +135,7 @@ pub struct Data{
 }
 
 
-#[derive(Debug,Deserialize,Serialize,PartialEq)]
+#[derive(Debug,Deserialize,Serialize,PartialEq,Clone)]
 pub struct CustomerData{
     pub id:i32,
     pub name:String,
@@ -147,7 +149,7 @@ pub enum available{
     Chat,
     Call
 }
-#[derive(Debug,Deserialize,Serialize,PartialEq)]
+#[derive(Debug,Deserialize,Serialize,PartialEq,Clone)]
 pub enum language{
     English,
     Spanish
@@ -158,6 +160,39 @@ pub struct request_data{
     pub available:available,
     pub language:language,
     pub timestamp:DateTime<Utc>
+}
+
+
+#[derive(Debug, Deserialize, Serialize,Clone)]
+pub struct StudData {
+    pub id:i32,
+    pub name: String,
+    pub phone: String,
+    pub email: String,
+    pub city: String,
+    pub address: String,
+    pub marks: Vec<u32>,
+    pub percentage: Option<f32>,
+    pub grade: Option<String>,
+}
+
+#[derive(Debug,Deserialize,Serialize,Clone)]
+
+pub struct EmpData{
+    pub id:i32,
+    pub name:String,
+    pub age:u8,
+    pub position:Option<Position>,
+    #[serde(rename="experiance(y)")]
+    pub experiance:Option<u8>,
+    pub skills:Vec<Skills>,
+}
+
+#[derive(Serialize,Deserialize)]
+pub struct Message<T> {
+    pub status: u32,
+    pub message_key: String,
+    pub data: T,
 }
 
 

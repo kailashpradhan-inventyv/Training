@@ -22,8 +22,10 @@ pub mod table_by_map;
 pub mod thread_generate_datas;
 ///Advance Task of Thread
 pub mod advanced_thread_task;
-
-fn main() {
+///CRUD Operation on Employee,Student,MasterData
+pub mod axum_crud_task;
+#[tokio::main]
+async fn main() {
     // employee::emp_sorting();
     // student::students_result();
     // string_task::string_find();
@@ -33,7 +35,8 @@ fn main() {
     // stud_by_hashmap::students_result_hashmap();
     // table_by_map::table_value_update();
     // thread_generate_datas::generate_datas();
-    advanced_thread_task::advanced_task();
+    // advanced_thread_task::advanced_task();
+    axum_crud_task::axum_server().await;
     
     
 
