@@ -1,0 +1,13 @@
+D:\Inventyv_Training\Training\Rust\gussing_game\target\debug\deps\libtoml-d402f5379470c290.rmeta: C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\lib.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\map.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\value.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\de.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\ser.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\macros.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\edit.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\fmt.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\table.rs
+
+D:\Inventyv_Training\Training\Rust\gussing_game\target\debug\deps\toml-d402f5379470c290.d: C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\lib.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\map.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\value.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\de.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\ser.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\macros.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\edit.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\fmt.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\table.rs
+
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\map.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\value.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\de.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\ser.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\macros.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\edit.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\fmt.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\toml-0.8.10\src\table.rs:

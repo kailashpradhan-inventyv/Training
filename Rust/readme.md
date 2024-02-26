@@ -4,8 +4,8 @@
 
 ### Learned Concepts like..
 
-#### * Ownership & Borrowing
-#### * Module 
-#### * Smart Pointer
-#### * Axum Framework and so on..
+#### Ownership & Borrowing
+#### Module 
+#### Smart Pointer
+#### Axum Framework and so on..
 
