@@ -1,0 +1,1 @@
+/home/kailash/.local/share/Trash/files/rust_web_assembly/kp_temp/rust_web_assembly/target/wasm32-unknown-unknown/release/librust_web_assembly.rlib: /home/kailash/.local/share/Trash/files/rust_web_assembly/kp_temp/rust_web_assembly/src/lib.rs /home/kailash/.local/share/Trash/files/rust_web_assembly/kp_temp/rust_web_assembly/src/model.rs
