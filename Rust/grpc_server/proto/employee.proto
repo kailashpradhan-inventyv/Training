@@ -1,0 +1,29 @@
+syntax = "proto3";
+package employees;
+
+service Employees {
+    rpc getData (emp_get_id) returns (emp_resp);
+    rpc delData (emp_get_id) returns(emp_resp);
+    rpc newData (GRPCEmpData) returns (emp_resp);
+    rpc updateData(GRPCEmpData) returns (emp_resp);
+    
+}
+
+message emp_get_id {
+    int32 id = 1;
+}
+
+message emp_resp {
+    int32  key = 1;
+    string message = 2;
+    string data = 3;
+}
+
+message GRPCEmpData{
+    int32 id=1;
+    string name=2;
+    int32 age=3;
+    repeated string skills=4;
+    string position=5;
+    int32 experiance=6;
+}

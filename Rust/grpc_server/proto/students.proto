@@ -1,0 +1,29 @@
+syntax = "proto3";
+package students;
+
+service Students {
+    rpc getData (stud_get_id) returns (stud_resp);
+    rpc delData (stud_get_id) returns (stud_resp);
+    rpc updateData(GRPCStudData) returns (stud_resp);
+    rpc newData(GRPCStudData) returns (stud_resp);
+}
+
+message stud_get_id {
+    int32 id = 1;
+}
+
+message stud_resp {
+    int32  key = 1;
+    string message = 2;
+    string data = 3;
+}
+
+message GRPCStudData{
+    int32 id=1;
+    string name=2;
+    string email=3;
+    string address=4;
+    string city=5;
+    string phone=6;
+    repeated int32 marks=7;
+}

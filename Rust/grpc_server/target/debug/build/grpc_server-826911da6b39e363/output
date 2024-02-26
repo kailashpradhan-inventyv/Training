@@ -1,0 +1,4 @@
+cargo:rerun-if-changed=proto/students.proto
+cargo:rerun-if-changed=proto
+cargo:rerun-if-changed=proto/employee.proto
+cargo:rerun-if-changed=proto
