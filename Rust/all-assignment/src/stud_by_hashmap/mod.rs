@@ -3,7 +3,6 @@ use std::collections::{ HashMap};
 
 use serde_json::{json, Value};
 
-
 pub fn students_result_hashmap(){
     use std::fs::{read_to_string,write};
     use crate::common::Student;

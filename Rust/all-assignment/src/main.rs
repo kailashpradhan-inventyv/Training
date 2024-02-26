@@ -24,6 +24,8 @@ pub mod thread_generate_datas;
 pub mod advanced_thread_task;
 ///CRUD Operation on Employee,Student,MasterData
 pub mod axum_crud_task;
+///TiKV Database Connection
+pub mod tiKV_db;
 #[tokio::main]
 async fn main() {
     // employee::emp_sorting();
@@ -36,9 +38,15 @@ async fn main() {
     // table_by_map::table_value_update();
     // thread_generate_datas::generate_datas();
     // advanced_thread_task::advanced_task();
-    axum_crud_task::axum_server().await;
+    // axum_crud_task::axum_server().await;
+   
+    // println!("Hello");
     
-    
+    // tiKV_db::get_client().await;
+    // println!("Connection Established");
+
+    // tiKV_db::add_record("1".to_string(), "Kailash".to_string()).await;
+    // tiKV_db::get_record("1".to_string()).await;
 
 }
 
