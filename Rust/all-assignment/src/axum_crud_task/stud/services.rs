@@ -88,12 +88,34 @@ pub async fn new_data(Json(new_data):Json<StudData>)->Response{
         };
     }
     else{
-        stud_data.push(new_data.clone());
+        let sum:i32=new_data.marks.iter().sum();
+        let per=sum as f32/new_data.marks.iter().count() as f32;
+        let grade=match per{
+            90.0..=100.0=>{"A1".to_string()},
+            80.0..=90.0=>{"A2".to_string()},
+            70.0..=80.0=>{"B1".to_string()},
+            60.0..=70.0=>{"B2".to_string()},
+            50.0..=60.0=>{"C1".to_string()},
+            40.0..=50.0=>{"C2".to_string()}
+            _=>{"F".to_string()}
+        };
+        let n_data=StudData{
+            id:new_data.id,
+            name:new_data.name,
+            phone:new_data.phone,
+            email:new_data.email,
+            city:new_data.city,
+            address:new_data.address,
+            marks:new_data.marks,
+            percentage:Some(per),
+            grade:Some(grade)
+        };
+        stud_data.push(n_data.clone());
         return{
             Json(Message{
                 status:2000,
                 message_key:String::from("Success"),
-                data:new_data
+                data:n_data
             })
             .into_response()
         };
@@ -109,15 +131,27 @@ pub async fn update_data(Json(one_data):Json<StudData>)->Response{
         .iter_mut()
         .find(|data| data.id == one_data.id)
     {
-        data.id = one_data.id;
-        data.name = one_data.name;
-        data.phone = one_data.phone;
-        data.email = one_data.email;
-        data.city = one_data.city;
-        data.address = one_data.address;
-        data.marks = one_data.marks;
-        data.percentage = one_data.percentage;
-        data.grade = one_data.grade;
+        let sum:i32=one_data.marks.iter().sum();
+        let per=sum as f32/one_data.marks.iter().count() as f32;
+        let grade=match per{
+            90.0..=100.0=>{"A1".to_string()},
+            80.0..=90.0=>{"A2".to_string()},
+            70.0..=80.0=>{"B1".to_string()},
+            60.0..=70.0=>{"B2".to_string()},
+            50.0..=60.0=>{"C1".to_string()},
+            40.0..=50.0=>{"C2".to_string()}
+            _=>{"F".to_string()}
+        };
+            
+            data.id=one_data.id;
+            data.name=one_data.name;
+            data.phone=one_data.phone;
+            data.email=one_data.email;
+            data.city=one_data.city;
+            data.address=one_data.address;
+            data.marks=one_data.marks;
+            data.percentage=Some(per);
+            data.grade=Some(grade);
 
 
         return{ 
